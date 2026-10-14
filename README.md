@@ -1,49 +1,14 @@
-# WIKIQUIZ
-
-A Python-based quiz application that generates multiple-choice questions from Wikipedia article content using the Wikimedia Foundation's Wikipedia Structured Contents dataset.
-
-## 📌 Project Description
-
-WIKIQUIZ is a Python-based quiz application that uses Wikipedia article information to generate multiple-choice questions.
-
-The existing WIKIQUIZ project was integrated and tested in a Kaggle Notebook using the **Wikipedia Structured Contents** dataset provided by the Wikimedia Foundation.
-
-The application allows users to select or use Wikipedia articles, answer quiz questions, receive instant feedback, and track quiz performance.
-
-## ✨ Features
-
-- 📚 Uses Wikipedia article data
-- 🔎 Searches and selects articles by topic keyword
-- 🎯 Generates multiple-choice quiz questions
-- 🔢 Provides four answer options
-- ✅ Checks answers instantly
-- 📊 Calculates quiz scores and percentages
-- 📝 Stores quiz history
-- 📈 Displays overall performance
-- 📋 Displays quiz-wise performance
-- 🔢 Shows total questions, correct answers, wrong answers, and percentage
-
-## 🗂️ Project Structure
-
-```text
-WIKIQUIZ/
-│
-├── wikiquiz.py
-├── README.md
-│
-└── data/
-    └── wikipedia_dataset.csv
 # WIKIQUIZ 🧠
 
-A Python-based, web-based quiz application that generates multiple-choice questions from Wikipedia article content using the Wikimedia Foundation's Wikipedia Structured Contents dataset.
+A Python-based web application that generates multiple-choice quizzes from Wikipedia article content using the Wikimedia Foundation's Wikipedia Structured Contents dataset.
 
 ## 📌 Project Description
 
-WIKIQUIZ is a web-based quiz application developed using Python and Streamlit. It uses Wikipedia article information to create interactive multiple-choice quizzes.
+WIKIQUIZ is an interactive quiz application developed using Python and Streamlit. It uses Wikipedia article information to help users learn through multiple-choice questions.
 
-The project uses the **Wikipedia Structured Contents** dataset provided by the Wikimedia Foundation and was initially tested in a Kaggle Notebook.
+The project was initially explored and tested in a Kaggle Notebook using the Wikipedia Structured Contents dataset.
 
-Users can explore topics, answer quiz questions, view their scores, and track quiz performance through a simple web interface.
+Users can explore topics, answer quiz questions, view their scores, and track their quiz performance through a simple web interface.
 
 ## 🌐 Live Application
 
@@ -52,7 +17,7 @@ Users can explore topics, answer quiz questions, view their scores, and track qu
 ## ✨ Features
 
 - 📚 Uses Wikipedia article data
-- 🔎 Searches and selects articles by topic keyword
+- 🔎 Searches for articles by topic keyword
 - 🎯 Generates multiple-choice quiz questions
 - 🔢 Provides four answer options
 - ✅ Checks quiz answers
@@ -60,27 +25,25 @@ Users can explore topics, answer quiz questions, view their scores, and track qu
 - 📝 Maintains quiz history
 - 📈 Displays overall performance
 - 📋 Shows quiz-wise performance
-- 🔢 Displays total questions, correct answers, wrong answers, and percentage
+- 🔢 Displays total questions, correct answers, and wrong answers
 
 ## 🛠️ Technologies Used
 
 - **Python** – Application logic
 - **Streamlit** – Web interface
-- **Pandas / CSV** – Dataset handling, where applicable
+- **CSV** – Dataset storage and handling, where applicable
 - **Wikimedia Foundation's Wikipedia Structured Contents dataset** – Source of Wikipedia article content
-- **Render** – Web application deployment
 - **Kaggle Notebook** – Dataset exploration and initial testing
+- **Render** – Web application deployment
 
 ## 🗂️ Project Structure
 
 ```text
 WIKIQUIZ/
-│
 ├── app.py
 ├── wikiquiz.py
 ├── requirements.txt
 ├── README.md
-│
 └── data/
     └── wikipedia_dataset.csv
 ```
@@ -93,19 +56,19 @@ WIKIQUIZ/
    git clone https://github.com/RakshithaHM-git/WIKIQUIZ.git
    ```
 
-2. Open the project folder:
+2. Navigate to the project folder:
 
    ```bash
    cd WIKIQUIZ
    ```
 
-3. Install the dependencies:
+3. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit application:
+4. Start the Streamlit application:
 
    ```bash
    streamlit run app.py
@@ -115,5 +78,4 @@ WIKIQUIZ/
 
 ## 🎯 Project Objective
 
-To make learning from Wikipedia content more interactive by allowing users to practice through automatically generated quizzes and review their performance.
-
+To make learning from Wikipedia content more interactive by generating quizzes and helping users review their performance.
